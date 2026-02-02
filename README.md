@@ -14,13 +14,13 @@
 
 ## 🛠️ Data Processing Guide
 If you have the `malaysia-latest.osm.pbf` file, use **Osmium Tool** to update the API:
-```bash
+
 1. **Filter POIs:**
 ```bash
 osmium tags-filter malaysia-latest.osm.pbf n/amenity=fuel,hospital n/shop=convenience -o data/semenanjung-poi.json --overwrite
 
 2. Filter Road Networks:
-```bash
+
 osmium tags-filter malaysia-latest.osm.pbf w/highway=primary,secondary,tertiary -o data/semenanjung-roads.json --overwrite
 ```
 
