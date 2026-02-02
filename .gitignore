@@ -1,0 +1,14 @@
+# Ignore raw large data files
+*.osm.pbf
+*.pbf
+*.shp
+*.zip
+
+# Python environment
+__pycache__/
+venv/
+.env
+
+# System files
+.DS_Store
+Thumbs.db
