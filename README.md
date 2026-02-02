@@ -73,3 +73,10 @@ async function searchCustomAPI(query) {
         console.error("API Error:", err);
     }
 }
+
+5. Why the License Matters
+Since you are using OpenStreetMap data:
+
+ODbL License: This is mandatory because OSM data is "Share-Alike." If you improve the map data, you must share those improvements back.
+
+Attribution: Always keep the "© OpenStreetMap contributors" text on your map UI.
