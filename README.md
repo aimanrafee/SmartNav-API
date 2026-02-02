@@ -28,9 +28,9 @@ osmium tags-filter malaysia-latest.osm.pbf w/highway=primary,secondary,tertiary 
 Access this data in your application using the Fetch API:
 const API_URL = '[https://raw.githubusercontent.com/aimanrafee/SmartNav-API/main/data/semenanjung-poi.json](https://raw.githubusercontent.com/aimanrafee/SmartNav-API/main/data/semenanjung-poi.json)';
 
-fetch(API_URL)
+fetch(API_URL) ```bash
   .then(res => res.json())
-  .then(data => console.log("SmartNav Data Loaded Successfully"));
+  .then(data => console.log("SmartNav Data Loaded Successfully")); ```
 
   📜 License & Attribution
 Data provided by © OpenStreetMap contributors. This project is licensed under the Open Database License (ODbL).
